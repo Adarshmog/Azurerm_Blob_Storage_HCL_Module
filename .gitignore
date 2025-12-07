@@ -1,0 +1,60 @@
+# === TERRAFORM ===
+# Local .terraform directories
+**/.terraform/*
+**/.terraform.d/*
+**/.terraform.lock.hcl
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan files
+*.plan
+*.tfplan
+
+# Output logs
+*.log
+
+# === AZURE CLI ===
+# Azure auth cache
+.azure/*
+
+# === VISUAL STUDIO CODE ===
+.vscode/*
+!.vscode/extensions.json
+
+# === WINDOWS / OS FILES ===
+Thumbs.db
+Desktop.ini
+
+# === MACOS ===
+.DS_Store
+
+# === PYTHON VENV (If used in pipeline) ===
+venv/
+.env/
+
+# === NODE MODULES (If using JS scripts) ===
+node_modules/
+
+# === PROJECT FILES NOT REQUIRED IN GIT ===
+*.zip
+*.backup
